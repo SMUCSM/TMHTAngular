@@ -4,6 +4,7 @@ TMHTA
 > Teach Me How To AngularJS
 
 ---
+
 ## Requirements before installing the project.
 ### Step 1) Install Node.js (if you don't already have)
 
