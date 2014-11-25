@@ -11,11 +11,11 @@ TMHTA
 See http://nodejs.org/
 
 ### Step 2) install grunt (if you don't already have)
-`$ npm install -g grunt-cli'
+`$ npm install -g grunt-cli`
 
 ## Installing the project
 ### Cloning the repo
-`$ git clone http://url`
+`$ git clone https://github.com/SMU-CS-and-Math-Society/TMHTAngular.git`
 
 ### Installing dependancies
 `$ npm install && bower install`
