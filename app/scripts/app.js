@@ -21,4 +21,11 @@ angular
   ])
   .config(function ($stateProvider, $urlRouterProvider) {
 
+    $urlRouterProvider.otherwise('/');
+
+    $stateProvider.state("home", {
+        url: "/",
+        controller: 'homeController',
+        templateUrl: "views/main.html"
+    });
   });
