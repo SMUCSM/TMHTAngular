@@ -1,8 +1,8 @@
 angular.module("tmhtaApp")
-    .controller("homeController", ["$scope",
-        function($scope) {
+    .controller("homeController", ["$scope", "DataFactory",
+        function($scope, DataFactory) {
             $scope.message = "Angular is cool!";
 
-            $scope.colors = ['red', 'blue', 'yellow', 'brown', 'pink'];
+            $scope.colors = DataFactory.get();
         }
     ]);

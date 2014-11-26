@@ -15,3 +15,8 @@
       <li ng-repeat="color in colors | filter:query">{{color}}</li>
     </ul>
 </div>
+
+<button ui-sref="home.about">about with ur-sref</button>
+<button ng-click="goTo()"></button>
+
+<div ui-view=""></div>
