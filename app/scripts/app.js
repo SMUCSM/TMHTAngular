@@ -29,7 +29,7 @@ angular
         controller: 'homeController',
         templateUrl: "views/main.html"
     })
-    .state("home.about",{
+    .state("about",{
         url:"/about",
         templateUrl: "views/about.html"
     });
